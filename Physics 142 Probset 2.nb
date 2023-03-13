@@ -1,0 +1,1023 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     44844,       1015]
+NotebookOptionsPosition[     10156,        330]
+NotebookOutlinePosition[     43876,        998]
+CellTagsIndexPosition[     43833,        995]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "eF"}], " ", "x", " ", 
+    SqrtBox[
+     FractionBox["2", "a"]], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"m", " ", "\[Pi]"}], "a"], "x"}], "]"}], " ", 
+    SqrtBox[
+     FractionBox["2", "a"]], 
+    RowBox[{"Cos", "[", 
+     RowBox[{
+      FractionBox["\[Pi]", "a"], " ", "x"}], "]"}]}], " ", ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", 
+      FractionBox["a", "2"]}], ",", 
+     FractionBox["a", "2"]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.88757017193655*^9, 3.8875702947758284`*^9}, {
+  3.887570344442195*^9, 3.887570404608761*^9}, {3.88757153625373*^9, 
+  3.8875715374940643`*^9}, {3.887571786177109*^9, 3.8875717875876355`*^9}, {
+  3.887571869679179*^9, 3.8875718966119003`*^9}, {3.8875731378034*^9, 
+  3.8875731632338276`*^9}, {3.8875731988378234`*^9, 3.8875732808897014`*^9}, {
+  3.8875733118825407`*^9, 3.887573327720455*^9}},
+ CellLabel->"In[3]:=",ExpressionUUID->"5d577b65-f43b-4fe9-86bf-68bbf85f1e0a"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{"2", " ", "a", " ", "eF", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", " ", "m", " ", 
+       RowBox[{"Cos", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], ")"}], "/", 
+  RowBox[{"(", 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["m", "2"]}], ")"}], "2"], " ", 
+    SuperscriptBox["\[Pi]", "2"]}], ")"}]}]], "Output",
+ CellChangeTimes->{{3.8875732582264037`*^9, 3.887573283238472*^9}, {
+   3.887573321703179*^9, 3.8875733288802505`*^9}, 3.8875817259039125`*^9, 
+   3.8875933509095955`*^9, 3.8876136743820305`*^9},
+ CellLabel->"Out[3]=",ExpressionUUID->"6d7f3235-abd1-4079-a504-7ad206891369"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"-", "eF"}], " ", "x", " ", 
+    SqrtBox[
+     FractionBox["2", "a"]], " ", 
+    RowBox[{"Cos", "[", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"m", " ", "\[Pi]"}], "a"], "x"}], "]"}], " ", 
+    SqrtBox[
+     FractionBox["2", "a"]], 
+    RowBox[{"Sin", "[", 
+     RowBox[{
+      FractionBox["\[Pi]", "a"], " ", "x"}], "]"}]}], " ", ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", 
+      FractionBox["a", "2"]}], ",", 
+     FractionBox["a", "2"]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.887586255842901*^9, 3.887586261264632*^9}, {
+  3.887586350272391*^9, 3.887586351974619*^9}, {3.887586394617425*^9, 
+  3.887586396374504*^9}, {3.8876045303170023`*^9, 3.8876045442138233`*^9}},
+ CellLabel->"In[15]:=",ExpressionUUID->"ac2746ca-9440-4354-a437-2452c7d3357b"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{"2", " ", "a", " ", "eF", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"2", " ", 
+       RowBox[{"(", 
+        RowBox[{"1", "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", 
+       RowBox[{"Cos", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+      RowBox[{"m", " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", "m"}], ")"}], "2"], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{"1", "+", "m"}], ")"}], "2"], " ", 
+    SuperscriptBox["\[Pi]", "2"]}]]}]], "Output",
+ CellChangeTimes->{
+  3.8875862642260284`*^9, 3.887586355528597*^9, 3.8875863979740825`*^9, 
+   3.887593352675679*^9, {3.8876045399800425`*^9, 3.8876045451306067`*^9}},
+ CellLabel->"Out[15]=",ExpressionUUID->"41f62a8e-9b99-4856-9c66-f27323f14629"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Integrate", "[", 
+  RowBox[{
+   RowBox[{
+    SqrtBox[
+     FractionBox["2", "a"]], " ", 
+    RowBox[{"Sin", "[", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"m", " ", "\[Pi]"}], "a"], "x"}], "]"}], " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "eF"}], " ", "x"}], ")"}], " ", 
+    SqrtBox[
+     FractionBox["2", "a"]], 
+    RowBox[{"Cos", "[", 
+     RowBox[{
+      FractionBox["\[Pi]", "a"], " ", "x"}], "]"}]}], " ", ",", 
+   RowBox[{"{", 
+    RowBox[{"x", ",", 
+     RowBox[{"-", 
+      FractionBox["a", "2"]}], ",", 
+     FractionBox["a", "2"]}], "}"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.887591760157424*^9, 3.8875917871736803`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"e7e602c6-6ed0-4472-98d4-8146d1ad60b8"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"2", " ", "a", " ", "eF", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", "m", " ", 
+      RowBox[{"Cos", "[", 
+       FractionBox[
+        RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+      RowBox[{"Sin", "[", 
+       FractionBox[
+        RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+  RowBox[{
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", 
+      SuperscriptBox["m", "2"]}], ")"}], "2"], " ", 
+   SuperscriptBox["\[Pi]", "2"]}]]], "Output",
+ CellChangeTimes->{3.887591789754038*^9, 3.8875933536771107`*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"36af2c04-edd8-4338-a9c1-85c04cbcfb9f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  FractionBox[
+   RowBox[{"2", " ", "a", " ", "eF", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", " ", "m", " ", 
+       RowBox[{"Cos", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["m", "2"]}], ")"}], "2"], " ", 
+    SuperscriptBox["\[Pi]", "2"]}]], " ", 
+  RowBox[{"(", 
+   FractionBox["1", 
+    RowBox[{"1", "-", 
+     RowBox[{"m", "^", "2"}]}]], ")"}]}]], "Input",
+ CellChangeTimes->{{3.8875918325732584`*^9, 3.887591860268017*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"93c1304e-da2a-4da7-b966-1bd946820559"],
+
+Cell[BoxData[
+ FractionBox[
+  RowBox[{"2", " ", "a", " ", "eF", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{"4", " ", "m", " ", 
+      RowBox[{"Cos", "[", 
+       FractionBox[
+        RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", "1"}], "+", 
+        SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+      RowBox[{"Sin", "[", 
+       FractionBox[
+        RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+  RowBox[{
+   RowBox[{"(", 
+    RowBox[{"1", "-", 
+     SuperscriptBox["m", "2"]}], ")"}], " ", 
+   SuperscriptBox[
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"-", "1"}], "+", 
+      SuperscriptBox["m", "2"]}], ")"}], "2"], " ", 
+   SuperscriptBox["\[Pi]", "2"]}]]], "Output",
+ CellChangeTimes->{3.887591861473753*^9, 3.8875933538025427`*^9},
+ CellLabel->"Out[7]=",ExpressionUUID->"515d28cf-e1a2-4dd6-8389-2f1dc7eeb70f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Simplify", "[", 
+  FractionBox[
+   RowBox[{"2", " ", "a", " ", "eF", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", " ", "m", " ", 
+       RowBox[{"Cos", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+   RowBox[{
+    RowBox[{"(", 
+     RowBox[{"1", "-", 
+      SuperscriptBox["m", "2"]}], ")"}], " ", 
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["m", "2"]}], ")"}], "2"], " ", 
+    SuperscriptBox["\[Pi]", "2"]}]], "]"}]], "Input",
+ NumberMarks->False,
+ CellLabel->"In[8]:=",ExpressionUUID->"81d10d80-3d45-4114-975a-1492f35f5698"],
+
+Cell[BoxData[
+ RowBox[{"-", 
+  FractionBox[
+   RowBox[{"2", " ", "a", " ", "eF", " ", 
+    RowBox[{"(", 
+     RowBox[{
+      RowBox[{"4", " ", "m", " ", 
+       RowBox[{"Cos", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", "1"}], "+", 
+         SuperscriptBox["m", "2"]}], ")"}], " ", "\[Pi]", " ", 
+       RowBox[{"Sin", "[", 
+        FractionBox[
+         RowBox[{"m", " ", "\[Pi]"}], "2"], "]"}]}]}], ")"}]}], 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"-", "1"}], "+", 
+       SuperscriptBox["m", "2"]}], ")"}], "3"], " ", 
+    SuperscriptBox["\[Pi]", "2"]}]]}]], "Output",
+ CellChangeTimes->{3.887591866986931*^9, 3.887593353990877*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"380e30cc-5f32-42c8-819c-57010e1962e9"]
+}, Open  ]]
+},
+WindowSize->{949., 502.5},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+DockedCells->Cell[
+  BoxData[
+   FormBox[
+    GridBox[{{
+       ItemBox[
+        PanelBox[
+         StyleBox[
+          TagBox[
+           GridBox[{{
+              PaneBox[
+               TagBox[
+                GridBox[{{
+                   TagBox[
+                    TooltipBox[
+                    TagBox[
+                    FrameBox[
+                    ButtonBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "TemplateExpressionIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "TemplateExpression"], 
+                    BaseStyle -> "TextStyling", 
+                    ImageSizeCache -> {12., {1., 10.}}, SingleEvaluation -> 
+                    True]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], Appearance -> None, BaseStyle -> {}, 
+                    ButtonFunction :> 
+                    NotebookTemplating`Authoring`Private`\
+makeEvaluationExpression[
+                    ButtonNotebook[]], Evaluator -> Automatic, Method -> 
+                    "Queued"], Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], 
+                    FrameMargins -> {{5, 5}, {Inherited, Inherited}}, 
+                    FrameStyle -> GrayLevel[0.75], 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "TemplateExpressionTooltip"],
+                     StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", 
+                    "TemplateExpressionTooltip"]], "Tooltip"]& ], 
+                   TagBox[
+                    TagBox[
+                    TooltipBox[
+                    FrameBox[
+                    TagBox[
+                    GridBox[{{
+                    TagBox[
+                    ButtonBox[
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "TemplateSlotIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "TemplateSlot"], BaseStyle -> 
+                    "TextStyling", ImageSizeCache -> {48., {1., 10.}}, 
+                    SingleEvaluation -> True]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Left}}, "Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.5}}, "Rows" -> {{Automatic}}}], "Grid"], 
+                    Appearance -> None, FrameMargins -> {{4, 2}, {-1, 0}}, 
+                    ImageMargins -> 0], 
+                    Appearance -> {"Default" -> None, "Pressed" -> None}, 
+                    BaseStyle -> {}, ButtonFunction :> 
+                    NotebookTemplating`Authoring`Private`makeTemplateSlot[
+                    ButtonNotebook[], "Automatic"], ContentPadding -> False, 
+                    Evaluator -> Automatic, ImageSize -> {Automatic, 20}, 
+                    Method -> "Preemptive"], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    ActionMenuBox[
+                    DynamicModuleBox[{}, 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "dropdownIcon"], 
+                    ImageSizeCache -> {15., {4., 11.}}, SingleEvaluation -> 
+                    True], DynamicModuleValues :> {}, 
+                    Initialization :> (Needs["NotebookTemplating`"]; 
+                    Needs["NotebookTemplating`Authoring`"]; Null)], {StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "Named"], BaseStyle -> 
+                    "TextStyling", SingleEvaluation -> True], StripOnInput -> 
+                    False, TextAlignment -> Left] :> 
+                    NotebookTemplating`Authoring`Private`makeTemplateSlot[
+                    ButtonNotebook[], "Named"], StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "Positional"], BaseStyle -> 
+                    "TextStyling", SingleEvaluation -> True], StripOnInput -> 
+                    False, TextAlignment -> Left] :> 
+                    NotebookTemplating`Authoring`Private`makeTemplateSlot[
+                    ButtonNotebook[], "Positional"]}, Appearance -> None, 
+                    BaselinePosition -> 0]}}, AutoDelete -> False, FrameStyle -> 
+                    GrayLevel[0.75], 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxDividers -> {
+                    "ColumnsIndexed" -> {2 -> True}, "Rows" -> {{False}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.25}}, "Rows" -> {{0}}}], "Grid"], 
+                    Alignment -> {Center, Center}, Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], FrameMargins -> 0, FrameStyle -> 
+                    GrayLevel[0.75], ImageMargins -> 0, 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "TemplateSlotTooltip"], 
+                    StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "TemplateSlotTooltip"]], 
+                    "Tooltip"]& ], 
+                    MouseAppearanceTag["LinkHand"]], 
+                   TagBox[
+                    TooltipBox[
+                    TagBox[
+                    FrameBox[
+                    ButtonBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "ConditionalBlockIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "ConditionalBlock"], 
+                    BaseStyle -> "TextStyling", 
+                    ImageSizeCache -> {72., {1., 11.}}, SingleEvaluation -> 
+                    True]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], Appearance -> None, BaseStyle -> {}, 
+                    ButtonFunction :> 
+                    NotebookTemplating`Authoring`Private`\
+manageConditionalBlock[
+                    ButtonNotebook[]], Evaluator -> Automatic, Method -> 
+                    "Queued"], Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], 
+                    FrameMargins -> {{5, 5}, {Inherited, Inherited}}, 
+                    FrameStyle -> GrayLevel[0.75], 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "ConditionalBlockTooltip"], 
+                    StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "ConditionalBlockTooltip"]], 
+                    "Tooltip"]& ], 
+                   TagBox[
+                    TooltipBox[
+                    TagBox[
+                    FrameBox[
+                    ButtonBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "RepeatingBlockIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "RepeatingBlock"], BaseStyle -> 
+                    "TextStyling", ImageSizeCache -> {84., {1., 11.}}, 
+                    SingleEvaluation -> True]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"], Appearance -> None, BaseStyle -> {}, 
+                    ButtonFunction :> 
+                    NotebookTemplating`Authoring`Private`\
+manageTemplateNameBlock[
+                    ButtonNotebook[]], Evaluator -> Automatic, Method -> 
+                    "Queued"], Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], 
+                    FrameMargins -> {{5, 5}, {Inherited, Inherited}}, 
+                    FrameStyle -> GrayLevel[0.75], 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "RepeatingBlockTooltip"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True], 
+                    StripOnInput -> False], TooltipDelay -> 0.25], 
+                    Annotation[#, 
+                    Style[
+                    RawBoxes[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "RepeatingBlockTooltip"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True]]], 
+                    "Tooltip"]& ], 
+                   TagBox[
+                    TooltipBox[
+                    TagBox[
+                    FrameBox[
+                    ActionMenuBox[
+                    TagBox[
+                    GridBox[{{
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "CellBehavior"], BaseStyle -> 
+                    "TextStyling", ImageSizeCache -> {63., {1., 10.}}, 
+                    SingleEvaluation -> True], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "dropdownIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {
+                    BaselinePosition -> Scaled[0.1]}]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.1}}}], "Grid"], {
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "evalDeleteMenuIcon"], 
+                    SingleEvaluation -> True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "reportInputMenuDelete"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True], 
+                    StripOnInput -> False, TextAlignment -> Left, Background -> 
+                    None]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Bottom}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"] :> 
+                    NotebookTemplating`Authoring`Private`tagEvaluationCell[1],
+                     TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "evalHideMenuIcon"], 
+                    SingleEvaluation -> True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "reportInputMenuHide"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True], 
+                    StripOnInput -> False, TextAlignment -> Left, Background -> 
+                    None]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Bottom}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"] :> 
+                    NotebookTemplating`Authoring`Private`tagEvaluationCell[2],
+                     TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "unevalMenuIcon"], 
+                    SingleEvaluation -> True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", 
+                    "reportInputMenuUnevaluated"], BaseStyle -> "TextStyling",
+                     SingleEvaluation -> True], StripOnInput -> False, 
+                    TextAlignment -> Left, Background -> None]}}, AutoDelete -> 
+                    False, GridBoxAlignment -> {"Rows" -> {{Bottom}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"] :> 
+                    NotebookTemplating`Authoring`Private`tagEvaluationCell[3],
+                     TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "excludeMenuIcon"], 
+                    SingleEvaluation -> True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "reportInputMenuExclude"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True], 
+                    StripOnInput -> False, TextAlignment -> Left, Background -> 
+                    None]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Bottom}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"] :> 
+                    NotebookTemplating`Authoring`Private`tagEvaluationCell[4],
+                     Delimiter, TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "removeMenuIcon"], 
+                    SingleEvaluation -> True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {BaselinePosition -> Scaled[0.1]}], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "reportInputMenuRemove"], 
+                    BaseStyle -> "TextStyling", SingleEvaluation -> True], 
+                    StripOnInput -> False, TextAlignment -> Left, Background -> 
+                    None]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Bottom}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                    "Grid"] :> 
+                    NotebookTemplating`Authoring`Private`untagEvaluationCell[
+                    EvaluationNotebook[]]}, Appearance -> None, 
+                    DefaultBaseStyle -> {}], Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], 
+                    FrameMargins -> {{1, 1}, {Inherited, Inherited}}, 
+                    FrameStyle -> GrayLevel[0.75], 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "EvaluatableCellsTooltip"], 
+                    StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "EvaluatableCellsTooltip"]], 
+                    "Tooltip"]& ], 
+                   TagBox[
+                    TooltipBox[
+                    FrameBox[
+                    ActionMenuBox[
+                    TagBox[
+                    GridBox[{{
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "GeneratedOptions"], 
+                    BaseStyle -> "TextStyling", 
+                    ImageSizeCache -> {99., {3., 9.}}, SingleEvaluation -> 
+                    True], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "dropdownIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {
+                    BaselinePosition -> Scaled[0.1]}]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {"Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {"Columns" -> {{0.1}}}], "Grid"], {
+                    TemplateBox[{
+                    StyleBox["\"\[Checkmark] \"", ShowContents -> Dynamic[
+                    Lookup[
+                    Lookup[
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "GeneratedNotebookOptions"], ShowPageBreaks, 
+                    CurrentValue[
+                    EvaluationNotebook[], ShowPageBreaks]]], StripOnInput -> 
+                    False], "ShowPageBreaks"}, "RowDefault"] :> 
+                    NotebookTemplating`Private`\
+setGeneratedOptionsTaggingRules[ShowPageBreaks], TemplateBox[{
+                    StyleBox["\"\[Checkmark] \"", ShowContents -> Dynamic[
+                    Lookup[
+                    Lookup[
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "GeneratedNotebookOptions"], ShowCellBracket, 
+                    CurrentValue[
+                    EvaluationNotebook[], ShowCellBracket]]], StripOnInput -> 
+                    False], "ShowCellBracket"}, "RowDefault"] :> 
+                    NotebookTemplating`Private`\
+setGeneratedOptionsTaggingRules[ShowCellBracket], TemplateBox[{
+                    StyleBox["\"\[Checkmark] \"", ShowContents -> Dynamic[
+                    Lookup[
+                    Lookup[
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "GeneratedNotebookOptions"], IgnoreSpellCheck, 
+                    CurrentValue[
+                    EvaluationNotebook[], IgnoreSpellCheck]]], StripOnInput -> 
+                    False], "IgnoreSpellCheck"}, "RowDefault"] :> 
+                    NotebookTemplating`Private`\
+setGeneratedOptionsTaggingRules[IgnoreSpellCheck], TemplateBox[{
+                    StyleBox["\"\[Checkmark] \"", ShowContents -> Dynamic[
+                    Lookup[
+                    Lookup[
+                    CurrentValue[
+                    EvaluationNotebook[], TaggingRules], 
+                    "GeneratedNotebookOptions"], Editable, 
+                    CurrentValue[
+                    EvaluationNotebook[], Editable]]], StripOnInput -> False],
+                     "Editable"}, "RowDefault"] :> 
+                    NotebookTemplating`Private`\
+setGeneratedOptionsTaggingRules[Editable], Delimiter, DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "GOadvancedoptions"], 
+                    StandardForm], SingleEvaluation -> True] :> 
+                    NotebookTemplating`Authoring`Private`manageGenerateOption[
+                    ButtonNotebook[]]}, Appearance -> None, 
+                    DefaultBaseStyle -> {}, Method -> "Queued"], Background -> 
+                    Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], 
+                    FrameMargins -> {{5, 1}, {Inherited, Inherited}}, 
+                    FrameStyle -> GrayLevel[0.75], 
+                    ImageSize -> {Automatic, 30}, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "GeneratedOptionsTooltip"], 
+                    StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "GeneratedOptionsTooltip"]], 
+                    "Tooltip"]& ], 
+                   ItemBox["\"\"", ItemSize -> Fit, StripOnInput -> False], 
+                   TagBox[
+                    TooltipBox[
+                    TagBox[
+                    FrameBox[
+                    ButtonBox[
+                    PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "HelpIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {
+                    BaselinePosition -> Scaled[0.1]}]}}, AutoDelete -> False, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.5}}, "Rows" -> {{Automatic}}}], "Grid"]],
+                     Alignment -> Center, Appearance -> None, ButtonFunction :> 
+                    SystemOpen["paclet:guide/AutomatedReports"], Evaluator -> 
+                    Automatic, 
+                    FrameMargins -> {{10, 10}, {Inherited, Inherited}}, 
+                    ImageSize -> {Automatic, 30}, Method -> "Preemptive"], 
+                    Alignment -> {Center, Center}, Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    GrayLevel[1], 
+                    RGBColor[
+                    0.9607843137254902, 0.9607843137254902, 
+                    0.9607843137254902]]], FrameMargins -> 0, FrameStyle -> 
+                    None, ImageMargins -> 0, RoundingRadius -> 5, 
+                    StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    DynamicBox[
+                    ToBoxes[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "HelpTooltip"], 
+                    StandardForm]], TooltipDelay -> 0.25], Annotation[#, 
+                    Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "HelpTooltip"]], 
+                    "Tooltip"]& ], 
+                   
+                   DynamicModuleBox[{
+                    NotebookTemplating`Authoring`Private`running$$ = False}, 
+                    TagBox[
+                    FrameBox[
+                    ButtonBox[
+                    PaneSelectorBox[{False -> PaneBox[
+                    TagBox[
+                    GridBox[{{
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "Preview"], 
+                    ImageSizeCache -> {24., {1., 10.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, TextAlignment -> Center, 
+                    FontColor -> RGBColor[1., 1., 1.]], 
+                    StyleBox[
+                    DynamicBox[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingBitmaps", "GenerateIcon"], 
+                    ImageSizeCache -> {15., {2., 13.}}, SingleEvaluation -> 
+                    True], StripOnInput -> False, 
+                    GraphicsBoxOptions -> {
+                    BaselinePosition -> Scaled[0.1]}]}}, AutoDelete -> False, 
+                    GridBoxAlignment -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Baseline}}}, 
+                    GridBoxItemSize -> {
+                    "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}, 
+                    GridBoxSpacings -> {
+                    "Columns" -> {{0.5}}, "Rows" -> {{Automatic}}}], "Grid"]],
+                     True -> StyleBox[
+                    "\"...\"", StripOnInput -> False, TextAlignment -> Center,
+                     FontColor -> RGBColor[1., 1., 1.]]}, 
+                    Dynamic[
+                    TrueQ[NotebookTemplating`Authoring`Private`running$$]], 
+                    Alignment -> {Center, Baseline}, BaselinePosition -> 
+                    Baseline], Alignment -> Center, Appearance -> None, 
+                    BaseStyle -> {}, 
+                    ButtonFunction :> (
+                    NotebookTemplating`Authoring`Private`running$$ = True; 
+                    CheckAbort[
+                    NotebookTemplating`Authoring`Private`generatePreview[
+                    ButtonNotebook[]], $Aborted]; 
+                    NotebookTemplating`Authoring`Private`running$$ = False), 
+                    Enabled -> Dynamic[
+                    Not[NotebookTemplating`Authoring`Private`running$$]], 
+                    Evaluator -> Automatic, 
+                    FrameMargins -> {{8, 6}, {Inherited, Inherited}}, Method -> 
+                    "Queued", Tooltip -> Dynamic[
+                    FEPrivate`FrontEndResource[
+                    "NotebookTemplatingStrings", "PreviewTooltip"]], 
+                    TooltipDelay -> 0.25], Alignment -> {Center, Center}, 
+                    Background -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    RGBColor[
+                    0.13725490196078433`, 0.8470588235294118, 
+                    0.9529411764705882], 
+                    RGBColor[0., 0.7529411764705882, 0.8666666666666667]]], 
+                    FrameMargins -> 0, FrameStyle -> Dynamic[
+                    If[
+                    FEPrivate`And[
+                    CurrentValue["MouseOver"], 
+                    CurrentValue["NotebookSelected"]], 
+                    RGBColor[
+                    0.058823529411764705`, 0.7803921568627451, 
+                    0.8862745098039215], 
+                    RGBColor[0., 0.7529411764705882, 0.8666666666666667]]], 
+                    ImageMargins -> 0, ImageSize -> {Automatic, 30}, 
+                    RoundingRadius -> 5, StripOnInput -> False], 
+                    MouseAppearanceTag["LinkHand"]], 
+                    DynamicModuleValues :> {}]}}, AutoDelete -> False, 
+                 GridBoxItemSize -> {
+                  "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], 
+                "Grid"], Alignment -> {Center, Center}, 
+               ImageSize -> {Full, 44}]}}, AutoDelete -> False, 
+            GridBoxItemSize -> {
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}], "Grid"], 
+          "NotebookTemplateDockedCell", StripOnInput -> False], Appearance -> 
+         "Frameless", Background -> 
+         RGBColor[0.9607843137254902, 0.9607843137254902, 0.9607843137254902],
+          FrameMargins -> {{10, 20}, {0, 0}}, 
+         ImageMargins -> {{0, 0}, {0, 0}}], 
+        Frame -> {{False, False}, {False, True}}, StripOnInput -> False]}}, 
+     AutoDelete -> False, FrameStyle -> Directive[
+       RGBColor[0., 0.7529411764705882, 0.8666666666666667], Thickness -> 5], 
+     GridBoxItemSize -> {"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+      GridBoxSpacings -> {"Columns" -> {{Automatic}}, "Rows" -> {{0}}}], 
+    Grid]], "NotebookTemplateDockedCell", CellMargins -> 0, CellFrameMargins -> 
+  0, Background -> 
+  RGBColor[0.9607843137254902, 0.9607843137254902, 0.9607843137254902]],
+TaggingRules->{
+ "NotebookTemplateVersion" -> 1.1, "NotebookTemplate" -> True, 
+  "GeneratedNotebookOptions" -> {}},
+CellContext->Notebook,
+Magnification:>1.3 Inherited,
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 9, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"b57cd819-8431-4186-a747-d0f5e55a7ca1"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 1065, 27, 71, "Input",ExpressionUUID->"5d577b65-f43b-4fe9-86bf-68bbf85f1e0a"],
+Cell[1648, 51, 1034, 29, 57, "Output",ExpressionUUID->"6d7f3235-abd1-4079-a504-7ad206891369"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[2719, 85, 865, 24, 71, "Input",ExpressionUUID->"ac2746ca-9440-4354-a437-2452c7d3357b"],
+Cell[3587, 111, 1136, 33, 74, "Output",ExpressionUUID->"41f62a8e-9b99-4856-9c66-f27323f14629"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4760, 149, 761, 24, 71, "Input",ExpressionUUID->"e7e602c6-6ed0-4472-98d4-8146d1ad60b8"],
+Cell[5524, 175, 834, 25, 79, "Output",ExpressionUUID->"36af2c04-edd8-4338-a9c1-85c04cbcfb9f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[6395, 205, 976, 30, 77, "Input",ExpressionUUID->"93c1304e-da2a-4da7-b966-1bd946820559"],
+Cell[7374, 237, 920, 28, 79, "Output",ExpressionUUID->"515d28cf-e1a2-4dd6-8389-2f1dc7eeb70f"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8331, 270, 934, 29, 77, "Input",ExpressionUUID->"81d10d80-3d45-4114-975a-1492f35f5698"],
+Cell[9268, 301, 872, 26, 79, "Output",ExpressionUUID->"380e30cc-5f32-42c8-819c-57010e1962e9"]
+}, Open  ]]
+}
+]
+*)
+
