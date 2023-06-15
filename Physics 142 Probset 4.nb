@@ -10,63 +10,44 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      7461,        212]
-NotebookOptionsPosition[      6761,        191]
-NotebookOutlinePosition[      7162,        207]
-CellTagsIndexPosition[      7119,        204]
+NotebookDataLength[     24481,        640]
+NotebookOptionsPosition[     23271,        612]
+NotebookOutlinePosition[     23669,        628]
+CellTagsIndexPosition[     23626,        625]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
-
-Cell[CellGroupData[{
 Cell[BoxData[
- RowBox[{"equation1", " ", "=", " ", 
-  RowBox[{"{", 
-   RowBox[{
+ RowBox[{
+  RowBox[{"equation1", " ", ":=", " ", 
+   RowBox[{"{", 
     RowBox[{
      RowBox[{
-      RowBox[{"\[Alpha]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Beta]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
      RowBox[{
-      RowBox[{"\[Beta]", "[", "t", "]"}], "B", " ", 
-      RowBox[{"cos", " ", "[", 
-       RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
-    RowBox[{
+      RowBox[{
+       RowBox[{"\[Beta]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
      RowBox[{
-      RowBox[{"\[Beta]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{"\[Alpha]", "[", "0", "]"}], "\[Equal]", "0"}], ",", " ", 
      RowBox[{
-      RowBox[{"\[Alpha]", "[", "t", "]"}], "B", " ", 
-      RowBox[{"cos", " ", "[", 
-       RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}]}], "}"}]}]], "Input",
+      RowBox[{"\[Beta]", "[", "0", "]"}], "\[Equal]", "1"}]}], "}"}]}], 
+  ";"}]], "Input",
  CellChangeTimes->{{3.895744479865011*^9, 3.895744482830112*^9}, {
   3.8957445330622883`*^9, 3.895744611655373*^9}, {3.895744819920735*^9, 
-  3.895744854053561*^9}, {3.895745415583682*^9, 3.8957454580699024`*^9}},
- CellLabel->"In[13]:=",ExpressionUUID->"10720180-42bc-4e2c-ba4c-8887672cdce6"],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{
-    RowBox[{
-     SuperscriptBox["\[Alpha]", "\[Prime]",
-      MultilineFunction->None], "[", "t", "]"}], "\[Equal]", 
-    RowBox[{"B", " ", 
-     RowBox[{"cos", "[", 
-      RowBox[{"t", " ", "\[Omega]"}], "]"}], " ", 
-     RowBox[{"\[Beta]", "[", "t", "]"}]}]}], ",", 
-   RowBox[{
-    RowBox[{
-     SuperscriptBox["\[Beta]", "\[Prime]",
-      MultilineFunction->None], "[", "t", "]"}], "\[Equal]", 
-    RowBox[{"B", " ", 
-     RowBox[{"cos", "[", 
-      RowBox[{"t", " ", "\[Omega]"}], "]"}], " ", 
-     RowBox[{"\[Alpha]", "[", "t", "]"}]}]}]}], "}"}]], "Output",
- CellChangeTimes->{
-  3.8957446311863036`*^9, {3.895744841993247*^9, 3.8957448570398345`*^9}, {
-   3.8957454337619815`*^9, 3.8957454612982745`*^9}},
- CellLabel->"Out[13]=",ExpressionUUID->"6bb6250d-d2be-43a8-af91-d52211f4eb21"]
-}, Open  ]],
+  3.895744854053561*^9}, {3.895745415583682*^9, 3.8957454580699024`*^9}, {
+  3.895789253631692*^9, 3.8957892581869965`*^9}, {3.895789304611352*^9, 
+  3.8957893257269692`*^9}},
+ CellLabel->"In[7]:=",ExpressionUUID->"10720180-42bc-4e2c-ba4c-8887672cdce6"],
 
 Cell[CellGroupData[{
 
@@ -79,7 +60,449 @@ Cell[BoxData[
      RowBox[{"\[Beta]", "[", "t", "]"}]}], "}"}], ",", " ", "t"}], 
   "]"}]], "Input",
  CellChangeTimes->{{3.895744633824486*^9, 3.895744654745698*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"e50aa3c6-26ae-4629-9bee-e9e4fc318ffa"],
+ CellLabel->"In[8]:=",ExpressionUUID->"e50aa3c6-26ae-4629-9bee-e9e4fc318ffa"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", 
+         TemplateBox[{
+           RowBox[{"B", " ", 
+             RowBox[{"cos", "[", 
+               RowBox[{"\[Omega]", " ", 
+                 RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+           RowBox[{"K", "[", "1", "]"}], "1", "0"},
+          "InactiveIntegrate",
+          DisplayFunction->(RowBox[{
+             SubsuperscriptBox[
+              StyleBox["\[Integral]", "Inactive"], #3, #4], 
+             RowBox[{#, 
+               RowBox[{
+                 StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+          InterpretationFunction->(RowBox[{
+             RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+             RowBox[{#, ",", 
+               RowBox[{"{", 
+                 RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}], "-", 
+        TemplateBox[{
+          RowBox[{"B", " ", 
+            RowBox[{"cos", "[", 
+              RowBox[{"\[Omega]", " ", 
+                RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+          RowBox[{"K", "[", "1", "]"}], "1", "t"},
+         "InactiveIntegrate",
+         DisplayFunction->(RowBox[{
+            SubsuperscriptBox[
+             StyleBox["\[Integral]", "Inactive"], #3, #4], 
+            RowBox[{#, 
+              RowBox[{
+                StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+         InterpretationFunction->(RowBox[{
+            RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+            RowBox[{#, ",", 
+              RowBox[{"{", 
+                RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", 
+           TemplateBox[{
+             RowBox[{"B", " ", 
+               RowBox[{"cos", "[", 
+                 RowBox[{"\[Omega]", " ", 
+                   RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+             RowBox[{"K", "[", "1", "]"}], "1", "0"},
+            "InactiveIntegrate",
+            DisplayFunction->(RowBox[{
+               SubsuperscriptBox[
+                StyleBox["\[Integral]", "Inactive"], #3, #4], 
+               RowBox[{#, 
+                 RowBox[{
+                   StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+            InterpretationFunction->(RowBox[{
+               RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+               RowBox[{#, ",", 
+                 RowBox[{"{", 
+                   RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+        "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "t"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+       ")"}]}]}], ",", 
+    RowBox[{
+     RowBox[{"\[Beta]", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", 
+         TemplateBox[{
+           RowBox[{"B", " ", 
+             RowBox[{"cos", "[", 
+               RowBox[{"\[Omega]", " ", 
+                 RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+           RowBox[{"K", "[", "1", "]"}], "1", "0"},
+          "InactiveIntegrate",
+          DisplayFunction->(RowBox[{
+             SubsuperscriptBox[
+              StyleBox["\[Integral]", "Inactive"], #3, #4], 
+             RowBox[{#, 
+               RowBox[{
+                 StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+          InterpretationFunction->(RowBox[{
+             RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+             RowBox[{#, ",", 
+               RowBox[{"{", 
+                 RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}], "-", 
+        TemplateBox[{
+          RowBox[{"B", " ", 
+            RowBox[{"cos", "[", 
+              RowBox[{"\[Omega]", " ", 
+                RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+          RowBox[{"K", "[", "1", "]"}], "1", "t"},
+         "InactiveIntegrate",
+         DisplayFunction->(RowBox[{
+            SubsuperscriptBox[
+             StyleBox["\[Integral]", "Inactive"], #3, #4], 
+            RowBox[{#, 
+              RowBox[{
+                StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+         InterpretationFunction->(RowBox[{
+            RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+            RowBox[{#, ",", 
+              RowBox[{"{", 
+                RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "0"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "t"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+       ")"}]}]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{
+  3.895744655725483*^9, {3.8957448420903363`*^9, 3.8957448571117725`*^9}, {
+   3.89574543395422*^9, 3.895745461370038*^9}, 3.895789330216604*^9, 
+   3.8957893684744663`*^9, 3.8957897195188923`*^9},
+ CellLabel->"Out[8]=",ExpressionUUID->"d2b89258-04cf-491a-addf-8e7a17eea809"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"equation2", " ", ":=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Alpha]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Beta]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Beta]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
+     RowBox[{
+      RowBox[{"\[Alpha]", "[", "0", "]"}], "\[Equal]", "1"}], ",", " ", 
+     RowBox[{
+      RowBox[{"\[Beta]", "[", "0", "]"}], "\[Equal]", "0"}]}], "}"}]}], 
+  ";"}]], "Input",
+ CellChangeTimes->{{3.8957893485145144`*^9, 3.8957893548674555`*^9}},
+ CellLabel->"In[9]:=",ExpressionUUID->"89107960-63b2-4a67-a3c4-a6ee2c963b49"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{"equation2", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "t", "]"}], ",", " ", 
+     RowBox[{"\[Beta]", "[", "t", "]"}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8957893635723634`*^9, 3.895789363720869*^9}},
+ CellLabel->"In[10]:=",ExpressionUUID->"cf3f1d0b-26d3-48c6-a433-adae58abd80d"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", 
+         TemplateBox[{
+           RowBox[{"B", " ", 
+             RowBox[{"cos", "[", 
+               RowBox[{"\[Omega]", " ", 
+                 RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+           RowBox[{"K", "[", "1", "]"}], "1", "0"},
+          "InactiveIntegrate",
+          DisplayFunction->(RowBox[{
+             SubsuperscriptBox[
+              StyleBox["\[Integral]", "Inactive"], #3, #4], 
+             RowBox[{#, 
+               RowBox[{
+                 StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+          InterpretationFunction->(RowBox[{
+             RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+             RowBox[{#, ",", 
+               RowBox[{"{", 
+                 RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}], "-", 
+        TemplateBox[{
+          RowBox[{"B", " ", 
+            RowBox[{"cos", "[", 
+              RowBox[{"\[Omega]", " ", 
+                RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+          RowBox[{"K", "[", "1", "]"}], "1", "t"},
+         "InactiveIntegrate",
+         DisplayFunction->(RowBox[{
+            SubsuperscriptBox[
+             StyleBox["\[Integral]", "Inactive"], #3, #4], 
+            RowBox[{#, 
+              RowBox[{
+                StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+         InterpretationFunction->(RowBox[{
+            RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+            RowBox[{#, ",", 
+              RowBox[{"{", 
+                RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "0"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "t"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+       ")"}]}]}], ",", 
+    RowBox[{
+     RowBox[{"\[Beta]", "[", "t", "]"}], "\[Rule]", 
+     RowBox[{
+      FractionBox["1", "2"], " ", 
+      SuperscriptBox["\[ExponentialE]", 
+       RowBox[{
+        RowBox[{"-", 
+         TemplateBox[{
+           RowBox[{"B", " ", 
+             RowBox[{"cos", "[", 
+               RowBox[{"\[Omega]", " ", 
+                 RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+           RowBox[{"K", "[", "1", "]"}], "1", "0"},
+          "InactiveIntegrate",
+          DisplayFunction->(RowBox[{
+             SubsuperscriptBox[
+              StyleBox["\[Integral]", "Inactive"], #3, #4], 
+             RowBox[{#, 
+               RowBox[{
+                 StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+          InterpretationFunction->(RowBox[{
+             RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+             RowBox[{#, ",", 
+               RowBox[{"{", 
+                 RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}], "-", 
+        TemplateBox[{
+          RowBox[{"B", " ", 
+            RowBox[{"cos", "[", 
+              RowBox[{"\[Omega]", " ", 
+                RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+          RowBox[{"K", "[", "1", "]"}], "1", "t"},
+         "InactiveIntegrate",
+         DisplayFunction->(RowBox[{
+            SubsuperscriptBox[
+             StyleBox["\[Integral]", "Inactive"], #3, #4], 
+            RowBox[{#, 
+              RowBox[{
+                StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+         InterpretationFunction->(RowBox[{
+            RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+            RowBox[{#, ",", 
+              RowBox[{"{", 
+                RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]], " ", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"-", 
+         SuperscriptBox["\[ExponentialE]", 
+          RowBox[{"2", " ", 
+           TemplateBox[{
+             RowBox[{"B", " ", 
+               RowBox[{"cos", "[", 
+                 RowBox[{"\[Omega]", " ", 
+                   RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+             RowBox[{"K", "[", "1", "]"}], "1", "0"},
+            "InactiveIntegrate",
+            DisplayFunction->(RowBox[{
+               SubsuperscriptBox[
+                StyleBox["\[Integral]", "Inactive"], #3, #4], 
+               RowBox[{#, 
+                 RowBox[{
+                   StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+            InterpretationFunction->(RowBox[{
+               RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+               RowBox[{#, ",", 
+                 RowBox[{"{", 
+                   RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+        "+", 
+        SuperscriptBox["\[ExponentialE]", 
+         RowBox[{"2", " ", 
+          TemplateBox[{
+            RowBox[{"B", " ", 
+              RowBox[{"cos", "[", 
+                RowBox[{"\[Omega]", " ", 
+                  RowBox[{"K", "[", "1", "]"}]}], "]"}]}], 
+            RowBox[{"K", "[", "1", "]"}], "1", "t"},
+           "InactiveIntegrate",
+           DisplayFunction->(RowBox[{
+              SubsuperscriptBox[
+               StyleBox["\[Integral]", "Inactive"], #3, #4], 
+              RowBox[{#, 
+                RowBox[{
+                  StyleBox["\[DifferentialD]", "Inactive"], #2}]}]}]& ),
+           InterpretationFunction->(RowBox[{
+              RowBox[{"Inactive", "[", "Integrate", "]"}], "[", 
+              RowBox[{#, ",", 
+                RowBox[{"{", 
+                  RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]}]]}], 
+       ")"}]}]}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.8957893685432677`*^9, 3.895789719605543*^9},
+ CellLabel->"Out[10]=",ExpressionUUID->"c2bce7cd-34e7-41c8-aa1d-ce5fea3dc929"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"equation3", " ", ":=", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Alpha]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Beta]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}], ",", " ", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"\[Beta]", "'"}], "[", "t", "]"}], "\[Equal]", 
+      RowBox[{
+       RowBox[{"\[Alpha]", "[", "t", "]"}], "B", " ", 
+       RowBox[{"cos", " ", "[", 
+        RowBox[{"\[Omega]", " ", "t"}], "]"}]}]}]}], "}"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.8957896977487745`*^9, 3.8957897141831703`*^9}},
+ CellLabel->"In[11]:=",ExpressionUUID->"22e8aba4-7d6b-4190-af0f-fe82ab496630"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"DSolve", "[", 
+  RowBox[{"equation3", ",", " ", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"\[Alpha]", "[", "t", "]"}], ",", " ", 
+     RowBox[{"\[Beta]", "[", "t", "]"}]}], "}"}], ",", " ", "t"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.89578971643371*^9, 3.8957897166564136`*^9}},
+ CellLabel->"In[12]:=",ExpressionUUID->"09067b70-f62e-4465-b5b8-975f5b9ea1a0"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -183,14 +606,12 @@ Cell[BoxData[
                 RowBox[{#2, ",", #3, ",", #4}], "}"}]}], "]"}]& )]], " ", 
        TemplateBox[{"2"},
         "C"]}]}]}]}], "}"}], "}"}]], "Output",
- CellChangeTimes->{
-  3.895744655725483*^9, {3.8957448420903363`*^9, 3.8957448571117725`*^9}, {
-   3.89574543395422*^9, 3.895745461370038*^9}},
- CellLabel->"Out[14]=",ExpressionUUID->"45c4fdd9-c7fa-43ae-a119-b90673465e38"]
+ CellChangeTimes->{3.895789719716708*^9},
+ CellLabel->"Out[12]=",ExpressionUUID->"8b9060e8-e058-4db3-9f5b-f85454ba85af"]
 }, Open  ]]
 },
-WindowSize->{960, 508},
-WindowMargins->{{-5.5, Automatic}, {Automatic, -5.5}},
+WindowSize->{949., 502.5},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (June 9, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"4f02bc7f-d7ff-4422-bba6-fe0991a1d88c"
@@ -206,17 +627,22 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
+Cell[558, 20, 1194, 29, 28, "Input",ExpressionUUID->"10720180-42bc-4e2c-ba4c-8887672cdce6"],
 Cell[CellGroupData[{
-Cell[580, 22, 882, 21, 28, "Input",ExpressionUUID->"10720180-42bc-4e2c-ba4c-8887672cdce6"],
-Cell[1465, 45, 845, 22, 32, "Output",ExpressionUUID->"6bb6250d-d2be-43a8-af91-d52211f4eb21"]
+Cell[1777, 53, 386, 9, 28, "Input",ExpressionUUID->"e50aa3c6-26ae-4629-9bee-e9e4fc318ffa"],
+Cell[2166, 64, 7375, 182, 84, "Output",ExpressionUUID->"d2b89258-04cf-491a-addf-8e7a17eea809"]
 }, Open  ]],
+Cell[9556, 249, 948, 25, 28, "Input",ExpressionUUID->"89107960-63b2-4a67-a3c4-a6ee2c963b49"],
 Cell[CellGroupData[{
-Cell[2347, 72, 387, 9, 28, "Input",ExpressionUUID->"e50aa3c6-26ae-4629-9bee-e9e4fc318ffa"],
-Cell[2737, 83, 4008, 105, 89, "Output",ExpressionUUID->"45c4fdd9-c7fa-43ae-a119-b90673465e38"]
+Cell[10529, 278, 389, 9, 28, "Input",ExpressionUUID->"cf3f1d0b-26d3-48c6-a433-adae58abd80d"],
+Cell[10921, 289, 7224, 179, 84, "Output",ExpressionUUID->"c2bce7cd-34e7-41c8-aa1d-ce5fea3dc929"]
+}, Open  ]],
+Cell[18160, 471, 773, 20, 28, "Input",ExpressionUUID->"22e8aba4-7d6b-4190-af0f-fe82ab496630"],
+Cell[CellGroupData[{
+Cell[18958, 495, 388, 9, 28, "Input",ExpressionUUID->"09067b70-f62e-4465-b5b8-975f5b9ea1a0"],
+Cell[19349, 506, 3906, 103, 89, "Output",ExpressionUUID->"8b9060e8-e058-4db3-9f5b-f85454ba85af"]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
